@@ -54,6 +54,9 @@ function love.update(dt)
     groundScroll = (groundScroll + GROUND_SCROLL_SPEEED * dt)
     % VIRTUAL_WIDTH
 
+
+    bird:update(dt)
+
 end
 
 
